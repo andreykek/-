@@ -1,8 +1,8 @@
 using Hwdtech;
 using Hwdtech.Ioc;
-namespace SpaceBattle.Lib
+namespace spacebattle.Lib
  {
-    public class GetDeltasStrategy : IStrategy
+    public class Deltas : IStrategy
     {
         public object Execute(params object[] args)
         {
